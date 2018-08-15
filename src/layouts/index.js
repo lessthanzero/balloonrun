@@ -15,32 +15,36 @@ import {
   TabList,
   Tab,
   TabLink,
+  Title
 } from 'bloomer'
 import AppHeader from '../components/Header'
 import AppFooter from '../components/Footer'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title="Home | Gatsby + Bulma & Bloomer" />
+    <Helmet title="Balloon Run 2018" />
     <Hero isFullHeight isColor="primary">
       <HeroHeader>
         <AppHeader />
       </HeroHeader>
 
-      <HeroBody>{children()}</HeroBody>
+      <HeroBody>
+        <Title isSize="1">Balloon Run 2018</Title>
+      </HeroBody>
 
       <HeroFooter>
         <Container>
           <Tabs isAlign="centered">
             <TabList>
               <Tab>
-                <TabLink>And this at the bottom</TabLink>
+                <TabLink>Бежать с нами!</TabLink>
               </Tab>
             </TabList>
           </Tabs>
         </Container>
       </HeroFooter>
     </Hero>
+    {children()}
     <AppFooter />
   </div>
 )
