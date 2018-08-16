@@ -8,20 +8,22 @@ const IndexPage = () => (
   <Container hasTextAlign="centered">
     
 
-    <Columns>
-        <Button isColor='info' render={
-            props => <Column hasTextAlign='centered'><p {...props}>Принять участие</p></Column>
-        } />
-        <Button isColor='primary' render={
-            props => <Column hasTextAlign='centered'><p {...props}>Забег онлайн</p></Column>
-        } />
-        <Button isColor='primary' render={
-            props => <Column hasTextAlign='centered'><p {...props}>Помогу, но не побегу</p></Column>
-        } />
-        <Button isColor='primary' render={
-            props => <Column hasTextAlign='centered'><p {...props}>Хочу стать волонтером</p></Column>
-        } />
-    </Columns>
+    <Section>
+        <Columns>
+            <Button isSize='large' isColor='primary' render={
+                props => <Column hasTextAlign='centered'><p {...props}>Принять участие</p></Column>
+            } />
+            <Button isSize='large' isOutlined isColor='primary' render={
+                props => <Column hasTextAlign='centered'><p {...props}>Забег онлайн</p></Column>
+            } />
+            <Button isSize='large' isOutlined isColor='primary' render={
+                props => <Column hasTextAlign='centered'><p {...props}>Помогу, но не побегу</p></Column>
+            } />
+            <Button isSize='large' isOutlined isColor='primary' render={
+                props => <Column hasTextAlign='centered'><p {...props}>Хочу стать волонтером</p></Column>
+            } />
+        </Columns>
+    </Section>
 
     <Section hasTextAlign='left'>
         <Content>
