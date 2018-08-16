@@ -11,6 +11,7 @@
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
     "gatsby-plugin-sass": "1.0.19",
+    "gatsby-remark-responsive-iframe": "^1.4.20",
     "react-helmet": "^5.2.0"
   },
   "keywords": [

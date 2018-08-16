@@ -14,7 +14,7 @@ const AppFooter = () => (
             </Column>
             <Column isHalf>
               <p className={"has-text-right"}>
-                BALLOON RUN 2018 🏃🏻‍♂️🌲🌳
+                BALLOON RUN 2018 🏃🎈🌲🌳
               </p>
             </Column>
           </Columns>
