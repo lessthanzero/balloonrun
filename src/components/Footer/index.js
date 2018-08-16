@@ -3,9 +3,8 @@ import { Footer, Container, Content, Columns, Column, Icon, Section } from 'bloo
 
 const AppFooter = () => (
   <Footer id="footer" className={"has-background-white"}>
-    <Section>
-      <Container>
-        <Content>
+    <Container>
+      <Section>
           <Columns>
             <Column isHalf>
               <p className={"has-text-left"}>
@@ -18,9 +17,8 @@ const AppFooter = () => (
               </p>
             </Column>
           </Columns>
-        </Content>
-      </Container>
-    </Section>
+      </Section>
+    </Container>
   </Footer>
 )
 
