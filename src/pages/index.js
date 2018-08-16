@@ -2,14 +2,14 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { Section, Container, Content, Columns, Column, Button, Image, Title, Media, Table } from 'bloomer'
 
-import run2016__1 from "./run2016__1.jpg";
-import run2016__10 from "./run2016__10.jpg";
-import logo from "./logo.png";
+import run2016__1 from "./run2016__1.jpg"
+import run2016__10 from "./run2016__10.jpg"
+import logo from "./logo.png"
+import map from "./map.png"
 
 const IndexPage = () => (
-  <Container hasTextAlign="centered">
+  <Container>
     
-
     <Section>
         <Columns>
             <Button isSize='large' isColor='primary' render={
@@ -53,7 +53,7 @@ const IndexPage = () => (
             </Column>
             <Column isSize='1/2'>
                 <Content>
-                    <Image isSize='730x730' src={logo} />
+                    <Image isSize='640x640' src={logo} />
                 </Content>
             </Column>
         </Columns>
@@ -114,7 +114,7 @@ const IndexPage = () => (
             <Column isSize='1/2'>
                 <Content>
                     <Title isSize='3'>Маршрут</Title>
-                    
+                    <Image isSize='1200x800' src={map} />
                 </Content>
             </Column>
             <Column isSize='1/2'>

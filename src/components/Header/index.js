@@ -1,10 +1,9 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { Container } from 'bloomer'
+import { Container, Image } from 'bloomer'
 
 const AppHeader = () => (
   <Container>
-    
   </Container>
 )
 

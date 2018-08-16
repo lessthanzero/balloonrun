@@ -15,10 +15,16 @@ import {
   TabList,
   Tab,
   TabLink,
-  Title
+  Title,
+  Button,
+  Columns,
+  Column,
+  Image
 } from 'bloomer'
 import AppHeader from '../components/Header'
 import AppFooter from '../components/Footer'
+
+import hero from '../pages/hero.jpeg'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -32,25 +38,19 @@ const TemplateWrapper = ({ children }) => (
       <meta property="og:url" content="http://balloonrun.ru" />
     </Helmet>
     <Hero isFullHeight isColor="primary">
-      <HeroHeader>
-        <AppHeader />
-      </HeroHeader>
-
       <HeroBody>
-        <Title isSize="1">BALLOON RUN 2018</Title>
+        <Columns>
+          <Column isSize='1/2'>
+            <Title isSize="1">BALLOON RUN 2018</Title>
+            <Button isSize='large' isColor='warning' hasTextAlign='left'>Принять участие</Button>
+          </Column>
+          <Column isSize='1/2'>
+            <Container className={'hero-illustration'}>
+              
+            </Container>
+          </Column>
+        </Columns>
       </HeroBody>
-
-      <HeroFooter>
-        <Container>
-          <Tabs isAlign="centered">
-            <TabList>
-              <Tab>
-                <TabLink>Бежать с нами!</TabLink>
-              </Tab>
-            </TabList>
-          </Tabs>
-        </Container>
-      </HeroFooter>
     </Hero>
     {children()}
     <AppFooter />
