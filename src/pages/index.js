@@ -11,7 +11,7 @@ const IndexPage = () => (
   <Container>
     
     <Section>
-        <Columns>
+        <Columns id='actions'>
             <Button isSize='large' isColor='primary' render={
                 props => <Column hasTextAlign='centered'><p {...props}>Принять участие</p></Column>
             } />

@@ -43,7 +43,7 @@ const TemplateWrapper = ({ children }) => (
         <Section><Columns>
                   <Column isSize='1/2'>
                     <Title isSize="1">BALLOON RUN 2018</Title>
-                    <Button isSize='large' isColor='warning' hasTextAlign='left'>Принять участие</Button>
+                    <Button isSize='large' isColor='warning' hasTextAlign='left' href='#actions'>Узнать больше</Button>
                   </Column>
                   <Column isSize='1/2'>
                     <Image src={hero} className={'hero-illustration'} />
