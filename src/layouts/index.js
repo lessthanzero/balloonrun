@@ -19,7 +19,8 @@ import {
   Button,
   Columns,
   Column,
-  Image
+  Image,
+  Section
 } from 'bloomer'
 import AppHeader from '../components/Header'
 import AppFooter from '../components/Footer'
@@ -39,17 +40,15 @@ const TemplateWrapper = ({ children }) => (
     </Helmet>
     <Hero isFullHeight isColor="primary">
       <HeroBody>
-        <Columns>
-          <Column isSize='1/2'>
-            <Title isSize="1">BALLOON RUN 2018</Title>
-            <Button isSize='large' isColor='warning' hasTextAlign='left'>Принять участие</Button>
-          </Column>
-          <Column isSize='1/2'>
-            <Container className={'hero-illustration'}>
-              
-            </Container>
-          </Column>
-        </Columns>
+        <Section><Columns>
+                  <Column isSize='1/2'>
+                    <Title isSize="1">BALLOON RUN 2018</Title>
+                    <Button isSize='large' isColor='warning' hasTextAlign='left'>Принять участие</Button>
+                  </Column>
+                  <Column isSize='1/2'>
+                    <Image src={hero} className={'hero-illustration'} />
+                  </Column>
+                </Columns></Section>
       </HeroBody>
     </Hero>
     {children()}
