@@ -26,6 +26,8 @@
   },
   "devDependencies": {
     "gh-pages": "^1.2.0",
-    "prettier": "^1.11.1"
+    "prettier": "^1.11.1",
+    "serve": "^9.6.0",
+    "url-parse": "^1.4.3"
   }
 }
