@@ -20,12 +20,13 @@ import {
   Columns,
   Column,
   Image,
-  Section
+  Section,
+  Content
 } from 'bloomer'
 import AppHeader from '../components/Header'
 import AppFooter from '../components/Footer'
 
-import hero from '../pages/hero.jpeg'
+import hero from '../pages/hero-2.jpg'
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -44,6 +45,13 @@ const TemplateWrapper = ({ children }) => (
         <Section><Columns>
                   <Column isSize='1/2'>
                     <Title isSize="1">BALLOON RUN 2018</Title>
+                    <Content>
+                      <p className={'is-size-4'}>
+                        Примите участие в самом воздушном забеге этой осени.
+                        Мы проверили и убедились, что бегать с воздушном шариком в руке не только веселее, но и значительно легче. 
+                        Проверьте и вы 6 октября!
+                      </p>
+                    </Content>
                     <Button isSize='large' isColor='warning' hasTextAlign='left' href='#actions'>Узнать больше</Button>
                   </Column>
                   <Column isSize='1/2'>
