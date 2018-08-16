@@ -37,6 +37,7 @@ const TemplateWrapper = ({ children }) => (
       <meta property="og:title" content="BALLOON RUN 2018" />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="http://balloonrun.ru" />
+      <meta property="og:image" content="../pages/facebook.png" />
     </Helmet>
     <Hero isFullHeight isColor="primary">
       <HeroBody>
