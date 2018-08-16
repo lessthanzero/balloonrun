@@ -24,7 +24,7 @@ const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
       <meta charSet={"utf-8"}/>
-      <title>Balloon Run 2018</title>
+      <title>BALLOON RUN 2018</title>
       <meta property="description" content="Balloon Run — благотворительный забег на добрую дистанцию. Забег проходит в поддержку фонда «Плюс Помощь Детям», который помогает маленьким детям с тяжелыми заболеваниями в России." />
       <meta property="author" content="Плюс Помощь Детям" />
       <meta property="og:title" content="BALLOON RUN 2018" />
@@ -37,7 +37,7 @@ const TemplateWrapper = ({ children }) => (
       </HeroHeader>
 
       <HeroBody>
-        <Title isSize="1">Balloon Run 2018</Title>
+        <Title isSize="1">BALLOON RUN 2018</Title>
       </HeroBody>
 
       <HeroFooter>
