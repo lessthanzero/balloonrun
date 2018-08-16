@@ -1,29 +1,26 @@
 import React from 'react'
-import { Footer, Container, Content, Columns, Column, Icon } from 'bloomer'
+import { Footer, Container, Content, Columns, Column, Icon, Section } from 'bloomer'
 
 const AppFooter = () => (
-  <Footer id="footer">
-    <Container>
-      <Content>
-        <Columns>
-          <Column isFull>
-            <p>
-              Made with<Icon hasTextColor="danger" className="fa fa-heart" />
-              at <a href="https://cethyworks.io">cethyworks.io</a>
-            </p>
-          </Column>
-        </Columns>
-        <Content isSize="small">
-          <p>
-            The source code is licensed under <a target="_blank">MIT</a>.
-          </p>
-          <p>
-            The website content is licensed under{' '}
-            <a target="_blank">CC ANS 4.0</a>.
-          </p>
+  <Footer id="footer" className={"has-background-white"}>
+    <Section>
+      <Container>
+        <Content>
+          <Columns>
+            <Column isHalf>
+              <p className={"has-text-left"}>
+                Фонд «<a href="https://bbhelp.ru/" title="Сайт фонда Плюс Помощь Детям">Плюс Помощь Детям</a>»
+              </p>
+            </Column>
+            <Column isHalf>
+              <p className={"has-text-right"}>
+                BALLOON RUN 2018 🏃🏻‍♂️🌲🌳
+              </p>
+            </Column>
+          </Columns>
         </Content>
-      </Content>
-    </Container>
+      </Container>
+    </Section>
   </Footer>
 )
 
