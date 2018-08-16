@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { Section, Container, Content, Columns, Column, Button, Image, Title, Media } from 'bloomer'
+import { Section, Container, Content, Columns, Column, Button, Image, Title, Media, Table } from 'bloomer'
 
 import run2016__1 from "./run2016__1.jpg";
 import run2016__10 from "./run2016__10.jpg";
@@ -54,8 +54,6 @@ const IndexPage = () => (
             <Column isSize='1/2'>
                 <Content>
                     <Image isSize='730x730' src={logo} />
-                    
-                    
                 </Content>
             </Column>
         </Columns>
@@ -122,24 +120,40 @@ const IndexPage = () => (
             <Column isSize='1/2'>
                 <Content>
                     <Title isSize="3">Программа</Title>
-                    <p>
-                        09:00–10:30 — Регистрация участников
-                    </p>
-                    <p>
-                        10:45 — Разминка
-                    </p>
-                    <p>
-                        11:00 — Старт на 2 километра для детей и мам с колясками
-                    </p>
-                    <p>
-                        11:30 — Старт на 8 километров для взрослых участников
-                    </p>
-                    <p>
-                        12:30 — Подведение итогов, награждение призёров
-                    </p>
-                    <p>
-                        13:00 — Торжественный запуск шариков в небо
-                    </p>
+                    <Table isBordered={false} isStriped={false} isNarrow>
+                        <thead>
+                            <tr>
+                                <th>Время</th>
+                                <th>Активность</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>09:00–10:30</td>
+                                <td>Регистрация участников</td>
+                            </tr>
+                            <tr>
+                                <td>10:45</td>
+                                <td>Разминка</td>
+                            </tr>
+                            <tr>
+                                <td>11:00</td>
+                                <td>Старт на 2 километра для детей и мам с колясками</td>
+                            </tr>
+                            <tr>
+                                <td>11:30</td>
+                                <td>Старт на 8 километров для взрослых участников</td>
+                            </tr>
+                            <tr>
+                                <td>12:30</td>
+                                <td>Подведение итогов, награждение призёров</td>
+                            </tr>
+                            <tr>
+                                <td>13:00</td>
+                                <td>Торжественный запуск шариков в небо</td>
+                            </tr>
+                        </tbody>
+                    </Table>
                     
                 </Content>
             </Column>
