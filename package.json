@@ -29,6 +29,7 @@
     "gatsby-transformer-remark": "^1.7.44",
     "gh-pages": "^1.2.0",
     "prettier": "^1.11.1",
+    "react-responsive-embed": "^2.1.0",
     "serve": "^9.6.0",
     "url-parse": "^1.4.3"
   }

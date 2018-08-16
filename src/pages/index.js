@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import ResponsiveEmbed from 'react-responsive-embed'
 import { Section, Container, Content, Columns, Column, Button, Image, Title, Media, Table } from 'bloomer'
 
 import run2016__1 from "./run2016__1.jpg"
@@ -63,12 +64,12 @@ const IndexPage = () => (
         
         <Columns>
             <Column isSize='1/2'>
-                <Content>
+                <Content className={'video'}>
                     <Title isSize='3'>Как это было в 2014 году</Title>
                     <p>
                         Первый BALLOON RUN, который прошёл в Москве в 2014 году, собрал более 300 человек и принёс 143 000 рублей в помощь подопечным фонда.
                     </p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/9CVaAj_EN9Y?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <ResponsiveEmbed ratio='3:2' src="https://www.youtube.com/embed/9CVaAj_EN9Y?rel=0&amp;controls=0&amp;showinfo=0" />
                 </Content>
             </Column>
             <Column isSize='1/2'>
