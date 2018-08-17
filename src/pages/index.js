@@ -1,7 +1,19 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import ResponsiveEmbed from 'react-responsive-embed'
-import { Section, Container, Content, Columns, Column, Button, Image, Title, Media, Table } from 'bloomer'
+import { 
+    Section, 
+    Container, 
+    Content, 
+    Columns, 
+    Column, 
+    Button, 
+    Image, 
+    Title, 
+    Media, 
+    Table,
+    Modal 
+} from 'bloomer'
 
 import run2016__1 from "./run2016__1.jpg"
 import run2016__10 from "./run2016__10.jpg"
@@ -13,18 +25,26 @@ const IndexPage = () => (
     
     <Section>
         <Columns id='actions'>
-            <Button isSize='large' isColor='primary' render={
-                props => <Column hasTextAlign='centered'><p {...props}>Принять участие</p></Column>
-            } />
-            <Button isSize='large' isOutlined isColor='primary' render={
-                props => <Column hasTextAlign='centered'><p {...props}>Забег онлайн</p></Column>
-            } />
-            <Button isSize='large' isOutlined isColor='primary' render={
-                props => <Column hasTextAlign='centered'><p {...props}>Помогу, но не побегу</p></Column>
-            } />
-            <Button isSize='large' isOutlined isColor='primary' render={
-                props => <Column hasTextAlign='centered'><p {...props}>Хочу стать волонтером</p></Column>
-            } />
+            <Column>
+                <Button isSize='large' isColor='primary'>
+                    Принять участие
+                </Button>
+            </Column>
+            <Column>
+                <Button isSize='large' isOutlined isColor='primary'>
+                    Забег онлайн
+                </Button>
+            </Column>
+            <Column>
+                <Button isSize='large' isOutlined isColor='primary'>
+                    Помогу, но не побегу
+                </Button>
+            </Column>
+            <Column>
+                <Button isSize='large' isOutlined isColor='primary' href='https://goo.gl/forms/ZJXd10LJkxOWkazX2' title='Анкета для волонтеров'>
+                    Хочу стать волонтером
+                </Button>
+            </Column>
         </Columns>
     </Section>
 
@@ -183,7 +203,7 @@ const IndexPage = () => (
                 <Content>
                     <Title isSize="3">Помощь в качестве волонтёра</Title>
                     <p>
-                        Для участия в организации и помощи в забеге, пожалуйста, <a href=''>заполните короткую анкету</a>, и мы свяжемся с вами!
+                        Для участия в организации и помощи в забеге, пожалуйста, <a href='https://goo.gl/forms/ZJXd10LJkxOWkazX2' title='Анкета для волонтеров'>заполните короткую анкету</a>, и мы свяжемся с вами!
                     </p>
                     
                 </Content>
