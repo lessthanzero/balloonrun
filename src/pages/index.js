@@ -26,7 +26,7 @@ const IndexPage = () => (
     <Section>
         <Columns id='actions'>
             <Column>
-                <Button isSize='large' isColor='primary'>
+                <Button isSize='large' isColor='primary' href='https://plus-baby-help.timepad.ru/event/790555/' title='Принять участие в забеге'>
                     Принять участие
                 </Button>
             </Column>
@@ -36,7 +36,7 @@ const IndexPage = () => (
                 </Button>
             </Column>
             <Column>
-                <Button isSize='large' isOutlined isColor='primary'>
+                <Button isSize='large' isOutlined isColor='primary' href='https://plus-baby-help.timepad.ru/event/790555/' title='Принять участие в забеге'>
                     Помогу, но не побегу
                 </Button>
             </Column>
@@ -59,13 +59,13 @@ const IndexPage = () => (
                         В этом году мы решили сделать сразу четыре дистанции:
                     </p>
                     <p>
-                        <a href='#'>Два километра</a>
+                        <a href='https://plus-baby-help.timepad.ru/event/790555/' title='Принять участие в забеге'>Два километра</a>
                     </p>
                     <p>
-                        <a href='#'>Десять километров</a>
+                        <a href='https://plus-baby-help.timepad.ru/event/790555/' title='Принять участие в забеге'>Десять километров</a>
                     </p>
                     <p>
-                        <a href='#'>Для родителей, бегущих с колясками</a>
+                        <a href='https://plus-baby-help.timepad.ru/event/790555/' title='Принять участие в забеге'>Для родителей, бегущих с колясками</a>
                     </p>
                     <p>
                         <a href='#'>Онлайн–забег</a>, для желающих присоединиться к нам из любого города, любой страны
@@ -123,7 +123,7 @@ const IndexPage = () => (
             <Column>
                 <Content>
                     <p> 
-                        Для того, чтобы принять участие в забеге BALLOON RUN 2018, необходимо <a href=''>внести регистрационный взнос</a> — от 500 до 1500 рублей — в зависимости от вашего желания и возможностей.
+                        Для того, чтобы принять участие в забеге BALLOON RUN 2018, необходимо <a href='https://plus-baby-help.timepad.ru/event/790555/' title='Принять участие в забеге'>внести регистрационный взнос</a> — от 500 до 1500 рублей — в зависимости от вашего желания и возможностей.
                     </p>
                     <p>
                         <i>Дети до 7 лет могут принять участие в забеге бесплатно, обязательно напишите нам, если ваш ребёнок будет участвовать, мы подготовим для него настоящую медаль участника!</i>
@@ -195,7 +195,7 @@ const IndexPage = () => (
                 <Content>
                     <Title isSize='3'>Принять участие</Title>
                     <p>
-                        Для участия в забеге необходимо <a href='#'>заполнить анкету</a> и <a href=''>совершить благотворительное дарение</a> на сумму 500, 1000, 1500 рублей.
+                        Для участия в забеге необходимо заполнить анкету и <a href='https://plus-baby-help.timepad.ru/event/790555/' title='Принять участие в забеге'>совершить благотворительное дарение</a> на сумму 500, 1000, 1500 рублей.
                     </p>
                 </Content>
             </Column>
