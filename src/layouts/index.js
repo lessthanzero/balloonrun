@@ -42,22 +42,24 @@ const TemplateWrapper = ({ children }) => (
     </Helmet>
     <Hero isFullHeight isColor="primary">
       <HeroBody>
-        <Section><Columns>
-                  <Column isSize='1/2'>
-                    <Title isSize="1">BALLOON RUN 2018</Title>
-                    <Content>
-                      <p className={'is-size-4'}>
-                        Примите участие в самом воздушном забеге этой осени.
-                        Мы проверили и убедились, что бегать с воздушном шариком в руке не только веселее, но и значительно легче. 
-                        Проверьте и вы 6 октября!
-                      </p>
-                    </Content>
-                    <Button isSize='large' isColor='warning' hasTextAlign='left' href='#actions'>Узнать больше</Button>
-                  </Column>
-                  <Column isSize='1/2'>
-                    <Image src={hero} className={'hero-illustration'} />
-                  </Column>
-                </Columns></Section>
+        <Section>
+          <Columns>
+            <Column isSize='1/2'>
+              <Title isSize='2'>BALLOON RUN 2018</Title>
+              <Content>
+                <p className={'is-size-4'}>
+                  Примите участие в самом воздушном забеге этой осени.
+                  Мы проверили и убедились, что бегать с воздушном шариком в руке не только веселее, но и значительно легче. 
+                  Проверьте и вы 6 октября!
+                </p>
+              </Content>
+              <Button isSize='large' isColor='warning' hasTextAlign='left' href='#actions'>Узнать больше</Button>
+            </Column>
+            <Column isSize='1/2'>
+              <Image src={hero} className={'hero-illustration'} />
+            </Column>
+          </Columns>
+        </Section>
       </HeroBody>
     </Hero>
     {children()}
