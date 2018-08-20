@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/balloonrun",
+  pathPrefix: "/",
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
