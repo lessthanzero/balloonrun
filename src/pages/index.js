@@ -12,7 +12,7 @@ import {
     Title, 
     Media, 
     Table,
-    Modal 
+    Modal
 } from 'bloomer'
 
 import run2016__1 from "./run2016__1.jpg"
@@ -152,7 +152,7 @@ const IndexPage = () => (
                 <Content>
                     <Title isSize='3'>Маршрут</Title>
                     <p>Место сбора: Большая Филёвская улица, 22с1</p>
-                    <iframe src="https://yandex.ru/map-widget/v1/-/CBu-zLVUHA" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
+                    <iframe src="https://yandex.ru/map-widget/v1/-/CBuxuAw1pA" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
                 </Content>
             </Column>
             <Column isSize='1/2'>
