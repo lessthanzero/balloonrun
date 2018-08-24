@@ -36,7 +36,7 @@ const IndexPage = () => (
                 </Button>
             </Column>
             <Column>
-                <Button isSize='large' isOutlined isColor='primary' href='https://plus-baby-help.timepad.ru/event/790555/' title='Принять участие в забеге'>
+                <Button isSize='large' isOutlined isColor='primary' href='https://bbhelp.ru/pay/cloudpayments/' title='Принять участие в забеге'>
                     Помогу, но не побегу
                 </Button>
             </Column>
@@ -109,15 +109,25 @@ const IndexPage = () => (
     <Section hasTextAlign='left'>
         
         <Title isSize='3'>Как это будет в 2018 году</Title>
+
         <Columns>
             <Column isSize='1/2'>
                 <Content className='is-size-5'>
                     <p>
-                        Новая дистанция для родителей, которые бегают с колясками
+                        Мы проверили и убедились, что бегать с воздушном шариком в руке не только веселее, но и значительно легче. Проверьте и вы 6 октября!
                     </p>
-                        <p>Онлайн забег из любой точки земного шара</p>
-                        <p>Развлекательные мероприятия для детей во время забега</p>
-                        <p>Памятные сувениры и медали для участников</p>
+                    <p>
+                        — Новая дистанция для родителей, которые бегают с колясками
+                    </p>
+                    <p>
+                        — Онлайн забег из любой точки земного шара
+                    </p>
+                    <p>
+                        — Развлекательные мероприятия для детей во время забега
+                    </p>
+                    <p>
+                        — Памятные сувениры и медали для участников
+                    </p>
                 </Content>
             </Column>
             <Column>
