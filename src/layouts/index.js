@@ -49,8 +49,7 @@ const TemplateWrapper = ({ children }) => (
               <Content>
                 <p className={'is-size-4'}>
                   Примите участие в самом воздушном забеге этой осени.
-                  Мы проверили и убедились, что бегать с воздушным шариком в руке не только веселее, но и значительно легче. 
-                  Проверьте и вы 6 октября!
+                  6 октября 2018 года ждём вас на BALLOON RUN, в поддержку фонда «Плюс Помощь Детям».
                 </p>
               </Content>
               <Button isSize='large' isColor='warning' hasTextAlign='left' href='#actions'>Узнать больше</Button>
