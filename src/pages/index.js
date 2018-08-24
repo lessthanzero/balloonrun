@@ -96,7 +96,7 @@ const IndexPage = () => (
                 <Content>
                     <Title isSize="3">Как это было в 2016 году</Title>
                     <p>
-                        <a href='https://www.facebook.com/events/1683371071879969'>Второй забег</a> BALLOON RUN прошёл в 2016 году, собрал более 250 человек и принёс 186 370 рублей в помощь подопечным фонда.
+                        <a href='https://www.facebook.com/pg/fondbabyhelp/photos/?tab=album&album_id=393268834155403'>Второй забег</a> BALLOON RUN прошёл в 2016 году, собрал более 250 человек и принёс 186 370 рублей в помощь подопечным фонда.
                     </p>
                     <Image isSize='1200x798' src={run2016__10} />
                     
