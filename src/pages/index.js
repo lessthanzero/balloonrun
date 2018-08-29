@@ -153,8 +153,8 @@ const IndexPage = () => (
             <Column isSize='1/2'>
                 <Content>
                     <Title isSize='3'>Маршрут</Title>
-                    <p>Место сбора: Большая Филёвская улица, 22с1</p>
-                    <iframe src="https://yandex.ru/map-widget/v1/-/CBuxuAw1pA" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
+                    <p>Место сбора: Парк Фили, вход со стороны улиц Барклая, сбор у малой сцены:</p>
+                    <iframe src="https://yandex.ru/map-widget/v1/-/CBBEAJactD" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
                 </Content>
             </Column>
             <Column isSize='1/2'>
