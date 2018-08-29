@@ -19,6 +19,13 @@ import run2016__1 from "./run2016__1.jpg"
 import run2016__10 from "./run2016__10.jpg"
 import logo from "./logo.png"
 import map from "./map.png"
+import nawinia from "./partners/nawinia.png"
+import yonko from "./partners/yonko.svg"
+import takeabite from "./partners/takeabite.svg"
+import cepsports from "./partners/cep-sports.svg"
+import sharks from "./partners/sharks.svg"
+import vkusvill from "./partners/vkusvill.svg"
+import sadypridonya from "./partners/sady-pridonya.png"
 
 const widgetSrc = '<a href="https://plus-baby-help.timepad.ru/event/790555/" data-twf-placeholder="yes">Перейти к заказу билетов</a><script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="16128" data-timepad-widget-v2="event_register">(function(){return {"event":{"id":"790555"},"hidePreloading":true,"initialRoute":"button","buttonSettings":{"text":"Зарегистрироваться"}}; })();</script>';
 
@@ -217,6 +224,65 @@ const IndexPage = () => (
                         Для участия в организации и помощи в забеге, пожалуйста, <a href='https://goo.gl/forms/ZJXd10LJkxOWkazX2' title='Анкета для волонтеров'>заполните короткую анкету</a>, и мы свяжемся с вами!
                     </p>
                     
+                </Content>
+            </Column>
+        </Columns>
+
+    </Section>
+
+    <Section hasTextAlign='center' className='partners'>
+
+        <Columns>
+            <Column>
+                <Content>
+                    <a href='http://nawinia.com'>
+                        <Image src={nawinia} title={'Nawinia Rus'} />
+                    </a>
+                </Content>
+            </Column>
+            <Column>
+                <Content>
+                    <a href='http://yonko-co.ru'>
+                        <Image src={yonko} title={'Yonko Cosmetics'} />
+                    </a>
+                </Content>
+            </Column>
+            <Column>
+                <Content>
+                    <a href='http://takeabite.ru'>
+                        <Image src={takeabite} title={'BITE (ООО «БиоФудЛаб»)'} />
+                    </a>
+                </Content>
+            </Column>
+        </Columns>
+        
+        <Columns>
+            <Column>
+                <Content>
+                    <a href='http://cep-sports.ru'>
+                        <Image src={cepsports} title={'Medi Rus'} />
+                    </a>
+                </Content>
+            </Column>
+            <Column>
+                <Content>
+                    <a href='http://sharksproject.ru'>
+                        <Image src={sharks} title={'Sharks Project'} />
+                    </a>
+                </Content>
+            </Column>
+            <Column>
+                <Content>
+                    <a href='http://vkusvill.ru'>
+                        <Image src={vkusvill} title={'ВкусВилл'} />
+                    </a>
+                </Content>
+            </Column>
+            <Column>
+                <Content>
+                    <a href='http://sadypridonia.ru'>
+                        <Image src={sadypridonya} title={'Сады Придонья'} />
+                    </a>
                 </Content>
             </Column>
         </Columns>
