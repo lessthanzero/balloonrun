@@ -28,6 +28,8 @@ import AppFooter from '../components/Footer'
 
 import hero from '../pages/hero-2.jpg'
 
+const googleAnalytics = "<!-- Global site tag (gtag.js) - Google Analytics --><script async src='https://www.googletagmanager.com/gtag/js?id=UA-124353721-1'></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-124353721-1');</script>";
+
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet>
@@ -40,6 +42,7 @@ const TemplateWrapper = ({ children }) => (
       <meta property="og:url" content="http://balloonrun.ru" />
       <meta property="og:image" content="../pages/facebook.png" />
     </Helmet>
+    <div dangerouslySetInnerHTML={{__html: googleAnalytics}} />
     <Hero isFullHeight isColor="primary">
       <HeroBody>
         <Section>
