@@ -20,6 +20,8 @@ import run2016__10 from "./run2016__10.jpg"
 import logo from "./logo.png"
 import map from "./map.png"
 
+const widgetSrc = '<a href="https://plus-baby-help.timepad.ru/event/790555/" data-twf-placeholder="yes">Перейти к заказу билетов</a><script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="16128" data-timepad-widget-v2="event_register">(function(){return {"event":{"id":"790555"},"hidePreloading":true,"initialRoute":"button","buttonSettings":{"text":"Зарегистрироваться"}}; })();</script>';
+
 const IndexPage = () => (
   <Container>
     
@@ -208,6 +210,8 @@ const IndexPage = () => (
                     <p>
                         Для участия в забеге необходимо заполнить анкету и <a href='https://plus-baby-help.timepad.ru/event/790555/' title='Принять участие в забеге'>совершить благотворительное дарение</a> на сумму 500, 1000, 1500 рублей.
                     </p>
+                    <div dangerouslySetInnerHTML={{__html: widgetSrc}} />
+
                 </Content>
             </Column>
             <Column isSize='1/2'>
