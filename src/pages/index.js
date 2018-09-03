@@ -37,9 +37,7 @@ const IndexPage = () => (
     <Section>
         <Columns id='actions'>
             <Column>
-                <Button isSize='large' isColor='primary' title='Принять участие в забеге'>
-                    <div dangerouslySetInnerHTML={{__html: widgetSrcShort}} />
-                </Button>
+                <div dangerouslySetInnerHTML={{__html: widgetSrcShort}} />
             </Column>
             <Column>
                 <Button isSize='large' isOutlined isColor='primary'>
