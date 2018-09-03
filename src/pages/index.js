@@ -26,6 +26,7 @@ import cepsports from "./partners/cep-sports.svg"
 import sharks from "./partners/sharks.svg"
 import vkusvill from "./partners/vkusvill.svg"
 import sadypridonya from "./partners/sady-pridonya.png"
+import thule from "./partners/thule.svg"
 
 const widgetSrc = '<a href="https://plus-baby-help.timepad.ru/event/790555/" data-twf-placeholder="yes">Перейти к заказу билетов</a><script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="16128" data-timepad-widget-v2="event_register">(function(){return {"event":{"id":"790555"},"hidePreloading":true,"initialRoute":"button","buttonSettings":{"text":"Зарегистрироваться"}}; })();</script>';
 
@@ -231,7 +232,7 @@ const IndexPage = () => (
     </Section>
 
     <Section hasTextAlign='center' className='partners'>
-
+        <Title isSize='3' hasTextAlign='left'>Партнёры</Title>
         <Columns>
             <Column>
                 <Content>
@@ -254,9 +255,6 @@ const IndexPage = () => (
                     </a>
                 </Content>
             </Column>
-        </Columns>
-        
-        <Columns>
             <Column>
                 <Content>
                     <a href='http://cep-sports.ru'>
@@ -264,6 +262,9 @@ const IndexPage = () => (
                     </a>
                 </Content>
             </Column>
+        </Columns>
+        
+        <Columns>
             <Column>
                 <Content>
                     <a href='http://sharksproject.ru'>
@@ -282,6 +283,13 @@ const IndexPage = () => (
                 <Content>
                     <a href='http://sadypridonia.ru'>
                         <Image src={sadypridonya} title={'Сады Придонья'} />
+                    </a>
+                </Content>
+            </Column>
+            <Column>
+                <Content>
+                    <a href='https://thstore.ru/catalog/kids/thule_urban'>
+                        <Image src={thule} title={'Беговые коляски Thule'} />
                     </a>
                 </Content>
             </Column>
