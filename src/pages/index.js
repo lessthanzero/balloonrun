@@ -15,20 +15,21 @@ import {
     Modal
 } from 'bloomer'
 
-import run2016__1 from "./run2016__1.jpg"
-import run2016__10 from "./run2016__10.jpg"
-import logo from "./logo.png"
-import map from "./map.png"
-import nawinia from "./partners/nawinia.png"
-import yonko from "./partners/yonko.svg"
-import takeabite from "./partners/takeabite.svg"
-import cepsports from "./partners/cep-sports.svg"
-import sharks from "./partners/sharks.svg"
-import vkusvill from "./partners/vkusvill.svg"
-import sadypridonya from "./partners/sady-pridonya.png"
-import thule from "./partners/thule.svg"
+import run2016__1 from './run2016__1.jpg'
+import run2016__10 from './run2016__10.jpg'
+import logo from './logo.png'
+import map from './map.png'
+import nawinia from './partners/nawinia.png'
+import yonko from './partners/yonko.svg'
+import takeabite from './partners/takeabite.svg'
+import cepsports from './partners/cep-sports.svg'
+import sharks from './partners/sharks.svg'
+import vkusvill from './partners/vkusvill.svg'
+import sadypridonya from './partners/sady-pridonya.png'
+import thule from './partners/thule.svg'
 
 const widgetSrc = '<a href="https://plus-baby-help.timepad.ru/event/790555/" data-twf-placeholder="yes">Перейти к заказу билетов</a><script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="16128" data-timepad-widget-v2="event_register">(function(){return {"event":{"id":"790555"},"hidePreloading":true,"initialRoute":"button","buttonSettings":{"text":"Зарегистрироваться"}}; })();</script>';
+const widgetSrcShort = '<a href="https://plus-baby-help.timepad.ru/event/790555/" data-twf-placeholder="yes">Принять участие</a><script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="16128" data-timepad-widget-v2="event_register">(function(){return {"event":{"id":"790555"},"hidePreloading":true,"initialRoute":"button","buttonSettings":{"text":"Зарегистрироваться"}}; })();</script>';
 
 const IndexPage = () => (
   <Container>
@@ -36,8 +37,8 @@ const IndexPage = () => (
     <Section>
         <Columns id='actions'>
             <Column>
-                <Button isSize='large' isColor='primary' href='https://plus-baby-help.timepad.ru/event/790555/' title='Принять участие в забеге'>
-                    Принять участие
+                <Button isSize='large' isColor='primary' title='Принять участие в забеге'>
+                    <div dangerouslySetInnerHTML={{__html: widgetSrcShort}} />
                 </Button>
             </Column>
             <Column>
