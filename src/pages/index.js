@@ -1,16 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import ResponsiveEmbed from 'react-responsive-embed'
-import { 
-    Section, 
-    Container, 
-    Content, 
-    Columns, 
-    Column, 
-    Button, 
-    Image, 
-    Title, 
-    Media, 
+import {
+    Section,
+    Container,
+    Content,
+    Columns,
+    Column,
+    Button,
+    Image,
+    Title,
+    Media,
     Table,
     Modal
 } from 'bloomer'
@@ -33,7 +33,7 @@ const widgetSrcShort = '<a href="https://plus-baby-help.timepad.ru/event/790555/
 
 const IndexPage = () => (
   <Container>
-    
+
     <Section>
         <Columns id='actions'>
             <Column>
@@ -90,7 +90,7 @@ const IndexPage = () => (
     </Section>
 
     <Section hasTextAlign='left'>
-        
+
         <Columns>
             <Column isSize='1/2'>
                 <Content className={'video'}>
@@ -108,7 +108,7 @@ const IndexPage = () => (
                         <a href='https://www.facebook.com/pg/fondbabyhelp/photos/?tab=album&album_id=393268834155403'>Второй забег</a> BALLOON RUN прошёл в 2016 году, собрал более 250 человек и принёс 186 370 рублей в помощь подопечным фонда.
                     </p>
                     <Image isSize='1200x798' src={run2016__10} />
-                    
+
                 </Content>
             </Column>
         </Columns>
@@ -116,7 +116,7 @@ const IndexPage = () => (
     </Section>
 
     <Section hasTextAlign='left'>
-        
+
         <Title isSize='3'>Как это будет в 2018 году</Title>
 
         <Columns>
@@ -141,7 +141,7 @@ const IndexPage = () => (
             </Column>
             <Column>
                 <Content>
-                    <p> 
+                    <p>
                         Для того, чтобы принять участие в забеге BALLOON RUN 2018, необходимо <a href='https://plus-baby-help.timepad.ru/event/790555/' title='Принять участие в забеге'>внести регистрационный взнос</a> — от 500 до 1500 рублей — в зависимости от вашего желания и возможностей.
                     </p>
                     <p>
@@ -155,13 +155,13 @@ const IndexPage = () => (
     </Section>
 
     <Section hasTextAlign='left'>
-        
+
         <Columns>
             <Column isSize='1/2'>
                 <Content>
                     <Title isSize='3'>Маршрут</Title>
-                    <p>Место сбора: Парк Фили, вход со стороны улиц Барклая, сбор у малой сцены:</p>
-                    <iframe src="https://yandex.ru/map-widget/v1/-/CBBEAJactD" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
+                    <p>Место проведения: м. Проспект Вернадского, парк имени 50-летия Октября</p>
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A69fb7579bb38d414247813f7e3dd3f7b524eab3c8e96ac3d30a0580bc935b5e6&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
                 </Content>
             </Column>
             <Column isSize='1/2'>
@@ -197,7 +197,7 @@ const IndexPage = () => (
                             </tr>
                         </tbody>
                     </Table>
-                    
+
                 </Content>
             </Column>
         </Columns>
@@ -205,7 +205,7 @@ const IndexPage = () => (
     </Section>
 
     <Section hasTextAlign='left'>
-        
+
         <Columns>
             <Column isSize='1/2'>
                 <Content>
@@ -223,7 +223,7 @@ const IndexPage = () => (
                     <p>
                         Для участия в организации и помощи в забеге, пожалуйста, <a href='https://goo.gl/forms/ZJXd10LJkxOWkazX2' title='Анкета для волонтеров'>заполните короткую анкету</a>, и мы свяжемся с вами!
                     </p>
-                    
+
                 </Content>
             </Column>
         </Columns>
@@ -262,7 +262,7 @@ const IndexPage = () => (
                 </Content>
             </Column>
         </Columns>
-        
+
         <Columns>
             <Column>
                 <Content>
