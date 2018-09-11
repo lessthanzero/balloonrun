@@ -27,6 +27,8 @@ import sharks from './partners/sharks.svg'
 import vkusvill from './partners/vkusvill.svg'
 import sadypridonya from './partners/sady-pridonya.png'
 import thule from './partners/thule.svg'
+import park from './partners/park.svg'
+import bestdontrest from './partners/bestdontrest.svg'
 
 const widgetSrc = '<a href="https://plus-baby-help.timepad.ru/event/790555/" data-twf-placeholder="yes">Перейти к заказу билетов</a><script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="16128" data-timepad-widget-v2="event_register">(function(){return {"event":{"id":"790555"},"hidePreloading":true,"initialRoute":"button","buttonSettings":{"text":"Зарегистрироваться"}}; })();</script>';
 const widgetSrcShort = '<a href="https://plus-baby-help.timepad.ru/event/790555/" data-twf-placeholder="yes">Принять участие</a><script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="16128" data-timepad-widget-v2="event_register">(function(){return {"event":{"id":"790555"},"hidePreloading":true,"initialRoute":"button","buttonSettings":{"text":"Зарегистрироваться"}}; })();</script>';
@@ -261,9 +263,6 @@ const IndexPage = () => (
                     </a>
                 </Content>
             </Column>
-        </Columns>
-
-        <Columns>
             <Column>
                 <Content>
                     <a href='http://sharksproject.ru'>
@@ -278,6 +277,10 @@ const IndexPage = () => (
                     </a>
                 </Content>
             </Column>
+        </Columns>
+
+        <Columns>
+            
             <Column>
                 <Content>
                     <a href='http://sadypridonia.ru'>
@@ -292,6 +295,24 @@ const IndexPage = () => (
                     </a>
                 </Content>
             </Column>
+             <Column>
+                <Content>
+                    <a href='https://www.google.ru/search?q=%D0%BF%D0%B0%D1%80%D0%BA+50-%D0%BB%D0%B5%D1%82%D0%B8%D1%8F+%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8F&newwindow=1&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiIlNaR9q_dAhVD2SwKHcQaCpwQ_AUICygC&biw=1455&bih=722'>
+                        <Image src={park} title={'Парк 50-летия Октября'} />
+                    </a>
+                </Content>
+            </Column>
+            <Column>
+                <Content>
+                    <a href='http://bestdontrest.com'>
+                        <Image src={bestdontrest} title={'Bestdontrest'} />
+                    </a>
+                </Content>
+            </Column>
+        </Columns>
+
+        <Columns>
+           
         </Columns>
 
     </Section>
