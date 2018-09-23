@@ -29,6 +29,10 @@ import sadypridonya from './partners/sady-pridonya.png'
 import thule from './partners/thule.svg'
 import park from './partners/park.svg'
 import bestdontrest from './partners/bestdontrest.svg'
+import zozhiki from './partners/zozhiki.png'
+import thepaperparty from './partners/thepaperparty.png'
+import stroidek from './partners/stroidek.png'
+import radiovera from './partners/radiovera.svg'
 
 const widgetSrc = '<a href="https://plus-baby-help.timepad.ru/event/790555/" data-twf-placeholder="yes">Перейти к заказу билетов</a><script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="16128" data-timepad-widget-v2="event_register">(function(){return {"event":{"id":"790555"},"hidePreloading":true,"initialRoute":"button","buttonSettings":{"text":"Зарегистрироваться"}}; })();</script>';
 const widgetSrcShort = '<a href="https://plus-baby-help.timepad.ru/event/790555/" data-twf-placeholder="yes">Принять участие</a><script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="16128" data-timepad-widget-v2="event_register">(function(){return {"event":{"id":"790555"},"hidePreloading":true,"initialRoute":"button","buttonSettings":{"text":"Зарегистрироваться"}}; })();</script>';
@@ -280,8 +284,7 @@ const IndexPage = () => (
         </Columns>
 
         <Columns>
-            
-            <Column>
+           <Column>
                 <Content>
                     <a href='http://sadypridonia.ru'>
                         <Image src={sadypridonya} title={'Сады Придонья'} />
@@ -310,10 +313,38 @@ const IndexPage = () => (
                 </Content>
             </Column>
         </Columns>
-
+        
         <Columns>
-           
+            <Column>
+                <Content>
+                    <a href='http://zozhiki.ru'>
+                        <Image src={zozhiki} title={'Зожики — здоровые сладости'} />
+                    </a>
+                </Content>
+            </Column>
+            <Column>
+                <Content>
+                    <a href='http://thepaperparty.ru'>
+                        <Image src={thepaperparty} title={'Декорация детских праздников'} />
+                    </a>
+                </Content>
+            </Column>
+             <Column>
+                <Content>
+                    <a href='https://stroidek.ru'>
+                        <Image src={stroidek} title={'Стройдек'} />
+                    </a>
+                </Content>
+            </Column>
+            <Column>
+                <Content>
+                    <a href='https://radiovera.ru'>
+                        <Image src={radiovera} title={'Радио Вера'} />
+                    </a>
+                </Content>
+            </Column>
         </Columns>
+
 
     </Section>
 
