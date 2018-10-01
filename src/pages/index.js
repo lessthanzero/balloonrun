@@ -47,7 +47,7 @@ const IndexPage = () => (
                 <div dangerouslySetInnerHTML={{__html: widgetSrcShort}} />
             </Column>
             <Column>
-                <Button isSize='large' isOutlined isColor='primary'>
+                <Button isSize='large' isOutlined isColor='primary' href='https://bestdontrest.com/' title="Онлайн забег">
                     Забег онлайн
                 </Button>
             </Column>
@@ -84,7 +84,7 @@ const IndexPage = () => (
                         <b>2 км для родителей, бегущих с колясками</b>
                     </p>
                     <p>
-                        <b>Онлайн–забег</b>, для желающих присоединиться к нам из любого города, любой страны. Регистрация скоро начнется!
+                        <b>Онлайн–забег</b>, для желающих присоединиться к нам из любого города, любой страны.
                     </p>
                 </Content>
             </Column>
@@ -314,7 +314,7 @@ const IndexPage = () => (
                 </Content>
             </Column>
         </Columns>
-        
+
         <Columns>
             <Column>
                 <Content>
