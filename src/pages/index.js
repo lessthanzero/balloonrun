@@ -33,6 +33,7 @@ import zozhiki from './partners/zozhiki.png'
 import thepaperparty from './partners/thepaperparty.png'
 import stroidek from './partners/stroidek.png'
 import radiovera from './partners/radiovera.svg'
+import printaria from './partners/printaria.jpg'
 
 const widgetSrc = '<a href="https://plus-baby-help.timepad.ru/event/790555/" data-twf-placeholder="yes">Перейти к заказу билетов</a><script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="16128" data-timepad-widget-v2="event_register">(function(){return {"event":{"id":"790555"},"hidePreloading":true,"initialRoute":"button","buttonSettings":{"text":"Зарегистрироваться"}}; })();</script>';
 const widgetSrcShort = '<a href="https://plus-baby-help.timepad.ru/event/790555/" data-twf-placeholder="yes">Принять участие</a><script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="16128" data-timepad-widget-v2="event_register">(function(){return {"event":{"id":"790555"},"hidePreloading":true,"initialRoute":"button","buttonSettings":{"text":"Зарегистрироваться"}}; })();</script>';
@@ -344,6 +345,13 @@ const IndexPage = () => (
                 <Content>
                     <a href='https://radiovera.ru'>
                         <Image src={radiovera} title={'Радио Вера'} />
+                    </a>
+                </Content>
+            </Column>
+            <Column>
+                <Content>
+                    <a href='http://printaria.ru'>
+                        <Image src={printaria} title={'Принтария'} />
                     </a>
                 </Content>
             </Column>
